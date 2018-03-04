@@ -6,4 +6,17 @@
     android:layout_height="match_parent"
     tools:context="com.xmalok.weatherv.MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.xmalok.weatherv.BlankFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="83dp" />
 </android.support.constraint.ConstraintLayout>
