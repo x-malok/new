@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.xmalok.weatherv.BlankFragment"
+        android:name="com.xmalok.weatherv.Fragment1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
