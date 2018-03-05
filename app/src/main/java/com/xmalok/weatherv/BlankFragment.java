@@ -85,9 +85,10 @@ public class BlankFragment extends Fragment {
         Log.d(LOG_TAG,"fragment attach");
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
-        } else {
+        } else { Log.d(LOG_TAG," must implement OnFragmentInteractionListener");
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
+
         }
     }
 
