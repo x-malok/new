@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:entries="@array/guesses_list"
+        android:entryValues="@array/guesses_list"
+        android:key="pref_number_of_choice"
+        android:title="@string/number_of_choices"
+        android:summary="@string/number_of_choices_description"
+        android:persistent="true"
+        android:defaultValue="4"
+
+
+
+        />
+
+<MultiSelectListPreference
+    android:entries="@array/group_list_for_settings"
+    android:entryValues="@array/group_list"
+    android:key="pref+group_to_include"
+    android:title="@string/world_groups"
+    android:summary="@string/world_groups_description"
+    android:defaultValue="@array/group_list"
+    android:persistent="true"
+
+
+
+
+
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PreferenceScreen>

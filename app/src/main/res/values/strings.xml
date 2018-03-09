@@ -5,15 +5,15 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="number_of_choices">Number of Choices</string>
     <string name="number_of_choices_description">Display 2,4,6 or 8 guess buttons</string>
-    <string name="world_regions">Groups</string>
-    <string name="world_regions_description">Groups to include in the quiz</string>
+    <string name="world_groups">Groups</string>
+    <string name="world_groups_description">Groups to include in the quiz</string>
     <string name="guess_country">Guess the characters</string>
     <string name="results">%1$ guess, %2/02.f%% correct</string>
     <string name="incorrect_answer">Incorrect!</string>
-    <string name="default_region_message">One group must be selected. Settng Ninja as the default region</string>
+    <string name="default_group_message">One group must be selected. Settng Ninja as the default region</string>
     <string name="restarting_quiz">Quiz will restart with your new settings</string>
     <string name="question">Question %1d of %2$d</string>
     <string name="reset_quiz">Reset Quiz</string>
     <string name="image_description">Image of the current character in the quiz</string>
-    <string name="default_region">Ninja</string>
+    <string name="default_group">Ninja</string>
 </resources>
