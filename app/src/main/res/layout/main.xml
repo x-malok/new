@@ -10,8 +10,9 @@
     <fragment
         android:id="@+id/fragment2"
         android:name="com.xmalok.weatherv.Fragment1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="266dp"
         tools:layout_editor_absoluteY="236dp" />
+
 </android.support.constraint.ConstraintLayout>

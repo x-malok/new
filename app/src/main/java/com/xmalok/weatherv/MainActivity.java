@@ -38,11 +38,11 @@ private boolean preferenceChanged=true;
        PreferenceManager.getDefaultSharedPreferences(this).registerOnSharedPreferenceChangeListener(preferenceChangeListener);
        int screenSize = getResources().getConfiguration().screenLayout & Configuration.SCREENLAYOUT_SIZE_MASK;
 
-       if (screenSize==Configuration.SCREENLAYOUT_SIZE_LARGE||screenSize==Configuration.SCREENLAYOUT_SIZE_XLARGE) {
-           phoneDivice=false;}
-           if (phoneDivice){setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);}
-
-
+    //   if (screenSize==Configuration.SCREENLAYOUT_SIZE_LARGE||screenSize==Configuration.SCREENLAYOUT_SIZE_XLARGE) {
+    //       phoneDivice=false;setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);}
+   //        if (phoneDivice){setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);}
+//
+      setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
     }

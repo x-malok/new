@@ -49,6 +49,7 @@ public class Fragment1 extends Fragment {
     SecureRandom random;
     Handler handler;
     Animation shakeanimation;
+    Animation scaleanimation;
     LinearLayout quizlinearlayout;
     TextView questionnumbertextView;
     ImageView characterimageView;
@@ -78,6 +79,10 @@ View view= inflater.inflate(R.layout.fragment_blank2, container, false);
        handler=new Handler();
        shakeanimation= AnimationUtils.loadAnimation(getActivity(),R.anim.incorrect_shake);
        shakeanimation.setRepeatCount(3);
+
+       scaleanimation=AnimationUtils.loadAnimation(getActivity(),R.anim.correct_a);
+       scaleanimation.setRepeatCount(3);
+
        quizlinearlayout=(LinearLayout)view.findViewById(R.id.quizLinearLayout);
        questionnumbertextView=(TextView)view.findViewById(R.id.questionNtv);
 
@@ -275,6 +280,13 @@ private View.OnClickListener buttonclicklistener = new View.OnClickListener() {
             correctanswers++;
             answertextView.setText(answer+" !");
             answertextView.setTextColor(getResources().getColor(R.color.correct_answer));
+            characterimageView.startAnimation(scaleanimation);
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+
+                }
+            },2000);
             disablebuttons();
 
 
@@ -282,7 +294,7 @@ private View.OnClickListener buttonclicklistener = new View.OnClickListener() {
 
 
 
-                getString(R.string.results,totalguesses,(1000/(double)totalguesses));
+
 
 AlertDialog.Builder builder=new AlertDialog.Builder(Fragment1.super.getActivity());
 String resstring= getString(R.string.results,totalguesses, (800/(double)totalguesses));

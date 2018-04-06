@@ -28,9 +28,9 @@ public class SettingActivityFragment extends PreferenceFragment {
 
    // public View onCreateView(LayoutInflater inflater, ViewGroup container,
      //                        Bundle savedInstanceState) {
-     //   Log.d(LOG_TAG, "FragmentSettings onCreateView");
+       // Log.d(LOG_TAG, "FragmentSettings onCreateView");
       //  return inflater.inflate(R.layout.fragment_setting_activity, null);
-  //  }
+  //}
 
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
