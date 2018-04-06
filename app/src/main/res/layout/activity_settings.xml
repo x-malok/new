@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.xmalok.weatherv.SettingsActivity">
 
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.xmalok.weatherv.SettingActivityFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="295dp" />
 </android.support.constraint.ConstraintLayout>

@@ -2,21 +2,24 @@
 <resources>
     <string-array name="group_list">
 
-        <item>Ninja</item>
-        <item>Pirates</item>
-        <item>Snakes</item>
-        <item>Ghosts</item>
-        <item>Chen</item>
+
+        <item>ниндзя</item>
+        <item>призраки</item>
+        <item>пираты</item>
+        <item>чен</item>
+        <item>серпентины</item>
+
+
 
     </string-array>
 
     <string-array name="group_list_for_settings">
 
-        <item>Ninja</item>
-        <item>Pirates</item>
-        <item>Snakes</item>
-        <item>Ghosts</item>
-        <item>Chen</item>
+        <item>ниндзя</item>
+        <item>призраки</item>
+        <item>пираты</item>
+        <item>чен</item>
+        <item>серпентины</item>
 
     </string-array>
 

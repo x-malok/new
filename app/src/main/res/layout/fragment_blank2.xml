@@ -21,15 +21,15 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/v460"
+        android:layout_height="@dimen/v460"
         android:layout_gravity="center_vertical|center_horizontal"
         android:layout_marginBottom="@dimen/activity_horizontal_margin"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-        android:src="@drawable/kai" />
+        android:src="@drawable/jay" />
 
     <LinearLayout
         android:id="@+id/row1LinearLayout"
@@ -39,8 +39,8 @@
 
         <Button
             android:id="@+id/button2"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"
@@ -49,8 +49,8 @@
 
         <Button
             android:id="@+id/button"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:lines="2"
@@ -66,8 +66,8 @@
 
         <Button
             android:id="@+id/button4"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"
@@ -76,8 +76,8 @@
 
         <Button
             android:id="@+id/button3"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"
@@ -93,8 +93,8 @@
 
         <Button
             android:id="@+id/button8"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"
@@ -103,8 +103,8 @@
 
         <Button
             android:id="@+id/button5"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"
@@ -120,8 +120,8 @@
 
         <Button
             android:id="@+id/button6"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"
@@ -130,8 +130,8 @@
 
         <Button
             android:id="@+id/button7"
-            style="@android:style/Widget.Material.Button"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.Material"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:lines="2"

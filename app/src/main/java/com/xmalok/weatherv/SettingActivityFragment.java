@@ -3,14 +3,16 @@ package  com.xmalok.weatherv;
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
+import android.preference.PreferenceFragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class SettingActivityFragment extends Fragment {
+public class SettingActivityFragment extends PreferenceFragment {
 
     final String LOG_TAG = "myLogs";
+
 
     @Override
     public void onAttach(Activity activity) {
@@ -21,13 +23,14 @@ public class SettingActivityFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d(LOG_TAG, "FragmentSettings onCreate");
+     addPreferencesFromResource(R.xml.preference);
     }
 
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        Log.d(LOG_TAG, "FragmentSettings onCreateView");
-        return inflater.inflate(R.layout.fragment_setting_activity, null);
-    }
+   // public View onCreateView(LayoutInflater inflater, ViewGroup container,
+     //                        Bundle savedInstanceState) {
+     //   Log.d(LOG_TAG, "FragmentSettings onCreateView");
+      //  return inflater.inflate(R.layout.fragment_setting_activity, null);
+  //  }
 
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);

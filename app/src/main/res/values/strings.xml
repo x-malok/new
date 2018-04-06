@@ -1,19 +1,22 @@
 <resources>
-    <string name="app_name">WeatherV</string>
+    <string name="app_name">Викторина ниндзя</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="number_of_choices">Number of Choices</string>
-    <string name="number_of_choices_description">Display 2,4,6 or 8 guess buttons</string>
-    <string name="world_groups">Groups</string>
-    <string name="world_groups_description">Groups to include in the quiz</string>
+    <string name="number_of_choices">Количество вариантов ответов</string>
+    <string name="number_of_choices_description">Кнопки ответов 2,4,6 или 8</string>
+    <string name="world_groups">Группы</string>
+    <string name="world_groups_description">Группы включенные в викторины</string>
     <string name="guess_country">Guess the characters</string>
-    <string name="results">%1$ guess, %2/02.f%% correct</string>
-    <string name="incorrect_answer">Incorrect!</string>
-    <string name="default_group_message">One group must be selected. Settng Ninja as the default region</string>
-    <string name="restarting_quiz">Quiz will restart with your new settings</string>
-    <string name="question">Question %1d of %2$d</string>
+    <string name="results">%1$d  ответов,  %2$.02f%%  верно</string>
+    <string name="incorrect_answer">Неверно!</string>
+    <string name="default_group_message">Одна группа должна быть выбрана.По умолчанию выбрана группа ниндзя</string>
+    <string name="restarting_quiz">Викторина будет перезагружена с новыми настройками</string>
+    <string name="question">Вопрос %1d из %2$d</string>
     <string name="reset_quiz">Reset Quiz</string>
     <string name="image_description">Image of the current character in the quiz</string>
-    <string name="default_group">Ninja</string>
+    <string name="default_group">ниндзя</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_resultat">Resultat</string>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>
